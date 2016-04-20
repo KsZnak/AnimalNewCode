@@ -8,7 +8,7 @@ namespace AnimalNewCode
 {
     class Animal
     {
-        public string name, color, meal, howl, vois, sleep;
+        public string name, color, meal, howl, vois, sleep, type;
         public int age { get; set; }
         public string AnimalsInfo, AnimalParticularSpecies;
         
@@ -19,10 +19,11 @@ namespace AnimalNewCode
         {
             AnimalsInfo = " Имя " + name + "\n" + " Цвет "  + color + "\n" +" Возраст " + age ;
             AnimalParticularSpecies = " еда " + meal + "\n" + " голос " + vois + "\n" + " спит " + sleep + "\n" + howl + "шерсть ";
-            Console.WriteLine(AnimalsInfo);
-            Console.WriteLine(AnimalParticularSpecies);
+            Console.WriteLine(type +  "\n" + AnimalsInfo + "\n");
+            Console.WriteLine(AnimalParticularSpecies + "\n");
             Console.ReadKey();
         }
+
 
 
     }

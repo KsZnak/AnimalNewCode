@@ -10,11 +10,19 @@ namespace AnimalNewCode
     {
         public Wolf(string wname, string wcolor, int wage)
         {
+            type = "Волк";
             name = wname;
             color = wcolor;
             age = wage;
             
            
+        }
+        public void particularspecies()
+        {
+            meal = "мясо";
+            vois = " рычит ";
+            sleep = " как все волки ";
+            howl = " средней длины ";
         }
 
     }
