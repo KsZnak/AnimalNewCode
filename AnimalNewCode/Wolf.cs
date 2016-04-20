@@ -8,12 +8,12 @@ namespace AnimalNewCode
 {
     class Wolf : Animal
     {
-        public Wolf(string wname, string wcolor, int wage)
+        public Wolf(string wolf_name, string wolf_color, int wolf_age)
         {
-            type = "Волк";
-            name = wname;
-            color = wcolor;
-            age = wage;
+            type = " Волк ";
+            name = wolf_name;
+            color = wolf_color;
+            age = wolf_age;
             
            
         }

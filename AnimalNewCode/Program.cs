@@ -12,6 +12,7 @@ namespace AnimalNewCode
         {
             Bears Teddy = new Bears( "Тэдди ", " Коричневый ",  10 );
             Teddy.particularspecies();
+           
             Teddy.Show();
 
             Bears Misha = new Bears( "Миша ", "Белый ", 6);
