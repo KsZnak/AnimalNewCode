@@ -10,17 +10,17 @@ namespace AnimalNewCode
     {
         public string name, color, meal, howl, vois, sleep;
         public int age { get; set; }
-        public string Animalsinfo, Animalfeatures;
+        public string AnimalsInfo, AnimalParticularSpecies;
         
 
         
 
         public void Show()
         {
-            Animalsinfo = " Имя " + name + " Цвет " + color + " Возраст " + age ;
-            Animalfeatures = " еда " + meal + " голос " + vois + " спит ";
-            Console.WriteLine(Animalsinfo );
-            Console.WriteLine(Animalfeatures);
+            AnimalsInfo = " Имя " + name + "\n" + " Цвет "  + color + "\n" +" Возраст " + age ;
+            AnimalParticularSpecies = " еда " + meal + "\n" + " голос " + vois + "\n" + " спит " + sleep + "\n" + howl + "шерсть ";
+            Console.WriteLine(AnimalsInfo);
+            Console.WriteLine(AnimalParticularSpecies);
             Console.ReadKey();
         }
 

@@ -10,8 +10,8 @@ namespace AnimalNewCode
     {
         static void Main(string[] args)
         {
-            Bears Teddy = new Bears(" Teddy ", " Broun ",  10 );
-            Teddy.features(" рыба и мёд ", " громкий " , " всю зиму ");
+            Bears Teddy = new Bears(" Тэдди ", " Коричневый ",  10 );
+            Teddy.particularspecies();
 
             Teddy.Show();
 

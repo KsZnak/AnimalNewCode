@@ -18,11 +18,12 @@ namespace AnimalNewCode
            
         }
 
-        public void features( string bear_meal, string bear_vois, string bear_sleep)
+        public void particularspecies( )
         {
-            meal = bear_meal;
-            vois = bear_vois;
-            sleep = bear_sleep; 
+            meal = "рыба и мёд";
+            vois = " рычит ";
+            sleep = " всю зиму ";
+            howl = " средней длины ";
         }
 
 
