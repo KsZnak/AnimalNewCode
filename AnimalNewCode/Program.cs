@@ -11,12 +11,12 @@ namespace AnimalNewCode
         static void Main(string[] args)
         {
             Bears Teddy = new Bears( "Тэдди ", " Коричневый ",  10 );
-            Teddy.particularspecies();
-           
+            Teddy.Particularspecies();
+            Teddy.Skills();        
             Teddy.Show();
 
             Bears Misha = new Bears( "Миша ", "Белый ", 6);
-            Misha.particularspecies();
+            Misha.Particularspecies();
             Misha.Show();
 
             

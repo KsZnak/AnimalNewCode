@@ -22,11 +22,8 @@ namespace AnimalNewCode
            
         }
 
-        public void particularspecies( )
+        public void Particularspecies( )
         {
-            Animal skils = new Animal();
-            skils.sweem(skilsstring);
-            skils.run(skilsstring);
             
 
             meal = "рыба и мёд";
@@ -35,6 +32,12 @@ namespace AnimalNewCode
             howl = " средней длины ";
 
             
+        }
+
+        public void Skills()
+        {
+            run = true;
+            sweem = true;
         }
 
 
