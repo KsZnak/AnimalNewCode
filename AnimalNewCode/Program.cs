@@ -12,16 +12,18 @@ namespace AnimalNewCode
         {
             Bears Teddy = new Bears( "Тэдди ", " Коричневый ",  10 );
             Teddy.Particularspecies();
-            Teddy.Skills();        
+            Teddy.Skills();  
             Teddy.Show();
 
             Bears Misha = new Bears( "Миша ", "Белый ", 6);
             Misha.Particularspecies();
+            Misha.Skills();
             Misha.Show();
 
             
             Wolf Seryj = new Wolf(" Серый ", " Серый ", 8);
             Seryj.particularspecies();
+            Seryj.Skills();
             Seryj.Show();
             
            

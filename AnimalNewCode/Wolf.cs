@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AnimalNewCode
 {
-    class Wolf : Animal
+    class Wolf : Skills
     {
         public Wolf(string wolf_name, string wolf_color, int wolf_age)
         {
@@ -23,6 +23,13 @@ namespace AnimalNewCode
             vois = " рычит ";
             sleep = " как все волки ";
             howl = " средней длины ";
+        }
+
+        public void Skills()
+        {
+            Run();
+            Growl();
+
         }
 
     }

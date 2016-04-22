@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace AnimalNewCode
 {
-    class Bears : Animal
+    class Bears : Skills
     {
         
         
-        public Bears ( string bear_name, string bear_color , int bear_age) 
+        public Bears ( string _bear_name, string _bear_color , int _bear_age) 
         {
-            
+
             
             type = " Медведь ";   
-            name = bear_name;
-            color = bear_color;
-            age = bear_age;
+            name =  _bear_name;
+            color =_bear_color;
+            age = _bear_age;
             
            
         }
@@ -30,18 +30,20 @@ namespace AnimalNewCode
             vois = " рычит ";
             sleep = " всю зиму ";
             howl = " средней длины ";
-
-            
         }
 
-        public void Skills()
+       public void Skills ()
         {
-            run = true;
-            sweem = true;
+            Run();
+            Growl();
+          
         }
 
 
-        
+
+
+
+
     }
 
 }
