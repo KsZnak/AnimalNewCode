@@ -23,10 +23,10 @@ namespace AnimalNewCode
             {
                 podtype = type + " Пингвин ";
                 name = _PinguinName;
-                color = _PinguinColor; 
+                color = _PinguinColor;
                 age = _PinguinAge;
                 Sweem();
-               
+                
 
             }
             public void Particularspecies()

@@ -19,6 +19,7 @@ namespace AnimalNewCode
 
         public void Show()
         {
+            
             AnimalsInfo = " Имя " + name + "\n" + " Цвет "  + color + "\n" +" Возраст " + age ;
             AnimalParticularSpecies = " еда " + meal + "\n" + " голос " + vois + "\n" + " спит " + sleep + "\n" + surface ;
             Animalskills = "Умения "  + skills;
