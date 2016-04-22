@@ -29,7 +29,7 @@ namespace AnimalNewCode
             meal = "рыба и мёд";
             vois = " рычит ";
             sleep = " всю зиму ";
-            howl = " средней длины ";
+            surface = " средней длины шерсть";
         }
 
        public void Skills ()

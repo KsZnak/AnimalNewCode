@@ -11,6 +11,7 @@ namespace AnimalNewCode
         public string _fly;
         public string _run;
         public string _growl;
+        public string _sweem;
         
 
         public virtual void Fly( )
@@ -33,6 +34,12 @@ namespace AnimalNewCode
             
 
         }
+        public void Sweem()
+        {
+            _sweem = "плавать";
+            skills = _sweem + skills;
+        }
+           
 
     }
 }

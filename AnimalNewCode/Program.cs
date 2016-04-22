@@ -25,6 +25,12 @@ namespace AnimalNewCode
             Seryj.particularspecies();
             Seryj.Skills();
             Seryj.Show();
+
+            Birds.Pinguin Lolo = new Birds.Pinguin("Lolo", "Черно-белый", 4);
+            Lolo.Particularspecies();
+            Lolo.Skills();
+            Lolo.Show();
+             
             
            
         }
