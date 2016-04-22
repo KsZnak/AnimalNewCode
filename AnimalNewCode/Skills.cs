@@ -6,28 +6,32 @@ using System.Threading.Tasks;
 
 namespace AnimalNewCode
 {
-    class Skills : Animal
+    public abstract class Skills : Animal
     {
-        public string fly;
-        public string run;
-        public string growl;
+        public string _fly;
+        public string _run;
+        public string _growl;
         
 
         public virtual void Fly( )
         {
-            fly = " летать";
-            skills = skills + fly;
+            _fly = " летать";
+           skills = skills + _fly;
 
         }
         public void Run ()
         {
-            run = " бегать";
-            skills = skills + run;
+            _run = " бегать";
+            skills = skills + _run;
+
+
         }
         public void Growl()
         {
-            growl = " рычать";
-            skills = skills + growl;
+            _growl = " рычать";
+            skills = _growl + skills;
+            
+
         }
 
     }
