@@ -6,10 +6,19 @@ using System.Threading.Tasks;
 
 namespace AnimalNewCode
 {
-    public abstract class Animal 
+   public  abstract class Animal 
     {
-        public string name, color, meal, surface, vois, sleep, type, podtype, skills;
-        public int age;
+
+        public string Name { get; set; }
+        public string Color { get; set; }
+        public string Meal { get; set; }
+        public string Surface { get; set; }
+        public string Vois { get; set; }
+        public string Sleep { get; set; }
+        public string Type { get; set; }
+        public string Podtype { get; set; }
+        public string SkillsString { get; set; }
+        public int Age {get; set; }
         public string AnimalsInfo, AnimalParticularSpecies, Animalskills;
         
 
@@ -20,10 +29,10 @@ namespace AnimalNewCode
         public void Show()
         {
             
-            AnimalsInfo = " Имя " + name + "\n" + " Цвет "  + color + "\n" +" Возраст " + age ;
-            AnimalParticularSpecies = " еда " + meal + "\n" + " голос " + vois + "\n" + " спит " + sleep + "\n" + surface ;
-            Animalskills = "Умения "  + skills;
-            Console.WriteLine(type + podtype  + "\n" + AnimalsInfo + "\n");
+            AnimalsInfo = " Имя " + Name + "\n" + " Цвет "  + Color + "\n" +" Возраст " + Age ;
+            AnimalParticularSpecies = " еда " + Meal + "\n" + " голос " + Vois + "\n" + " спит " + Sleep + "\n" + Surface ;
+            Animalskills = "Умения "  + SkillsString;
+            Console.WriteLine(Type + Podtype  + "\n" + AnimalsInfo + "\n");
             Console.WriteLine( Animalskills + "\n" +  AnimalParticularSpecies + "\n" ); 
             Console.ReadKey();
         }

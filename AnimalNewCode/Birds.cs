@@ -11,33 +11,32 @@ namespace AnimalNewCode
         public  void Skills()
         {
            
-            surface = "перья";
-            type = "Птица";
-            return;
+            Surface = "перья";
+            Type = "Птица";
+           
             
         }
      
         public class Pinguin: Birds
         {
-            public Pinguin (string _PinguinName, string _PinguinColor, int _PinguinAge)
+            public Pinguin (string Name, string Color, int Age)
             {
-                podtype = type + " Пингвин ";
-                name = _PinguinName;
-                color = _PinguinColor;
-                age = _PinguinAge;
-                Sweem();
-                
+                Podtype = Type  + " Пингвин ";
+                this.Name = Name;
+                this.Color = Color;
+                this.Age = Age;
+
 
             }
             public void Particularspecies()
             {
-
-
-                meal = "рыба ";
-                vois = " - ";
-                sleep = " 10 часов ";
+                Meal = "рыба ";
+                Vois = " - ";
+                Sleep = " 10 часов ";
                
             }
+
+
 
 
 

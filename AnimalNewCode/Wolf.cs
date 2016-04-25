@@ -8,21 +8,23 @@ namespace AnimalNewCode
 {
     class Wolf : Skills
     {
-        public Wolf(string wolf_name, string wolf_color, int wolf_age)
+       
+         
+        public Wolf(string Name, string Color, int Age)
         {
-            type = " Волк ";
-            name = wolf_name;
-            color = wolf_color;
-            age = wolf_age;
+            Type = " Волк ";
+            this.Name = Name;
+            this.Color = Color;
+            this.Age = Age;
             
            
         }
         public void particularspecies()
         {
-            meal = "мясо";
-            vois = " рычит ";
-            sleep = " как все волки ";
-            surface = " средней длины шерсть ";
+            Meal = "мясо";
+            Vois = " рычит ";
+            Sleep = " как все волки ";
+            Surface = " средней длины шерсть ";
         }
 
         public void Skills()

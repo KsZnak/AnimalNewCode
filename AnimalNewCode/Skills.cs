@@ -8,36 +8,37 @@ namespace AnimalNewCode
 {
     public abstract class Skills : Animal
     {
-        public string _fly;
-        public string _run;
-        public string _growl;
-        public string _sweem;
+        string _fly;
+        string _run;
+        string _growl;
+        string _sweem;
         
 
         public virtual void Fly( )
         {
             _fly = " летать";
-           skills = skills + _fly;
+            SkillsString = SkillsString + _fly;
 
         }
         public void Run ()
         {
             _run = " бегать";
-            skills = skills + _run;
+            SkillsString = SkillsString + _run;
 
 
         }
         public void Growl()
         {
             _growl = " рычать";
-            skills = _growl + skills;
+            SkillsString = SkillsString  + _growl;
             
 
         }
-        public void Sweem()
+        public  void   Sweem()
         {
             _sweem = "плавать";
-            skills = _sweem + skills;
+            SkillsString = SkillsString + _sweem;
+            
         }
            
 

@@ -8,28 +8,26 @@ namespace AnimalNewCode
 {
     class Bears : Skills
     {
-        
-        
-        public Bears ( string _bear_name, string _bear_color , int _bear_age) 
-        {
 
-            
-            type = " Медведь ";   
-            name =  _bear_name;
-            color =_bear_color;
-            age = _bear_age;
-            
-           
+
+        public Bears(string Name, string Color, int Age)
+        {
+            Type = " Медведь ";
+            this.Name = Name;
+            this.Color = Color;
+            this.Age = Age;
+
+
         }
 
         public void Particularspecies( )
         {
             
 
-            meal = "рыба и мёд";
-            vois = " рычит ";
-            sleep = " всю зиму ";
-            surface = " средней длины шерсть";
+            Meal = "рыба и мёд";
+            Vois = " рычит ";
+            Sleep = " всю зиму ";
+            Surface = " средней длины шерсть";
         }
 
        public void Skills ()
